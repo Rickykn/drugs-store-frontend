@@ -1,0 +1,118 @@
+:root{
+    
+    /* Color - Brand */
+    --color-primary: #1fb695;
+    --color-secondary: #17a864;
+
+    --color-primary-hover: #13a8c2;
+    --color-primary-selected: rgba(142, 68, 173, .12);
+
+     /* App Settings */
+     --backgroundColor:linear-gradient(155.7deg, #D6F5F3 -45.88%, #F7FCFC 45.77%, #F1F5FC 117.72%);
+     font-family: 'Public Sans';
+}
+
+.container{
+    align-items: center;
+    background: var(--backgroundColor);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.login-section{
+    background: #FFFFFF;
+    border: 1px solid black;
+    min-height: 300px;
+    min-width: 300px;
+    padding: 2em;
+}
+
+.login-form{
+    width: 100%;
+    align-items: center;
+    display: block;
+    justify-content: center;
+}
+
+.label-input{
+    display: block;
+    font-size: small;
+}
+
+.form-input{
+    border: 1px solid #B4B9C7;
+    border-radius: 4px;
+    margin: .5em 0 .5em 0 ;
+    min-height: 36px;
+    min-width: 200px;
+    width: 100%;
+    padding: 3px;
+}
+
+.form-input-password{
+    border:none;
+    min-height: 36px;
+    min-width: 200px;
+    width: 100%;
+    outline: none;
+}
+/* .form-input-password:focus{
+    border:none;
+} */
+
+.input-with-icon{
+    border:1px solid #B4B9C7;
+    display: flex;
+    border-radius: 4px;
+    min-height: 36px;
+    min-width: 200px;
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+}
+
+.input-with-icon:active{
+    border:1px solid #B4B9C7;
+    display: flex;
+    border-radius: 4px;
+    min-height: 36px;
+    min-width: 200px;
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+}
+
+.password-section{
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.forgot-password{
+    justify-content: right;
+    font-size: small;
+}
+
+.additional-form-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.remember-me{
+    align-items: center;
+    display: inline;
+    font-size: small;
+}
+
+.input-checkbox{
+    min-width: 0;
+    font-size: small;
+}
+
+
+
+
